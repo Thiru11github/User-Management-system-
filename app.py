@@ -5,7 +5,7 @@ app = Flask(__name__)#to get current file and consider this file as main file
 #MySQL Connection
 app.config["MYSQL_HOST"] ="localhost"
 app.config["MYSQL_USER"] ="root"
-app.config["MYSQL_PASSWORD"] ="1430"
+app.config["MYSQL_PASSWORD"] ="Th!ru@1109"
 app.config["MYSQL_DB"] ="crud"
 app.config["MYSQL_CURSORCLASS"] ="DictCursor" #To retrive the data in Dictionary format
 mysql=MySQL(app) #connection string
